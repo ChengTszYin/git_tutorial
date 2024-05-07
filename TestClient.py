@@ -1,7 +1,7 @@
 import socket
 
 HEADER = 64
-PORT = 5050
+PORT = 7001
 #IP = socket.gethostbyname(socket.gethostname())
 IP = "192.168.1.104"
 ADDR = (IP,PORT)
@@ -17,5 +17,5 @@ def send(msg):
     client.send(send_length)
     client.send(message)
 
-send("Hello World!")
+send("Hello Asshole!")
     
